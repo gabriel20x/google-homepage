@@ -1,0 +1,1 @@
+En este proyecto voy a realizar una pagina similar al buscador de google. Aprendiendo al guardado de archivos con Github y utilizando conocimientos html y css.
