@@ -1,0 +1,54 @@
+body {
+    background-color: white;
+}
+
+.navimg{
+    height: 20px;
+    width: 20px;
+}
+
+.nav-content{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-content a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-content a:hover{
+    color: black;
+}
+
+.nav-content li{
+    margin: 0 10px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.searchbar:hover {
+    box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+}
