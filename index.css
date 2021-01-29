@@ -1,5 +1,15 @@
 body {
     background-color: white;
+    margin: 0;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
 }
 
 .navimg{
@@ -27,6 +37,8 @@ body {
 
 .nav-content li{
     margin: 0 10px;
+    display: flex;
+    flex: 0 0 auto;
 }
 
 section {
@@ -44,11 +56,85 @@ form{
 }
 
 .searchbar {
-    border: 1px solid grey;
+    border: 1px solid rgb(219, 219, 219);
     border-radius: 20px;
-    width: 40%;
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    padding: 5px 8px 0 16px;
 }
 
-.searchbar:hover {
-    box-shadow: 0 0 6px rgba(35, 173, 278, 1);
+.searchbar:hover { 
+    box-shadow: 0 1px 5px 0 rgba(201, 206, 221, 0.692);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.buscador {
+    border-style: none;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.buscador:focus {
+    outline: none;
+}
+
+.boton {
+    border: none;
+    margin-top: 40px;
+    background-color: rgba(231, 231, 231, 0.274);
+    border-radius: 15px;
+    box-sizing: 15px;
+}
+
+.boton:hover {
+    box-shadow: 0 1px 5px 0 rgba(201, 206, 221, 0.692);
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 235, 235);
+}
+
+.footer-1, .footer-2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    border-top: 1px solid grey;
+}
+
+.footer-1 {
+    box-sizing: border-box;
+    justify-content: start;
+    padding-left: 50px;
+    color: grey;
+}
+
+.footer-2 {
+    justify-content: space-between;
+}
+
+.footer-2 ul {
+    list-style: none;
+}
+
+.footer-2 ul a{
+    color: grey;
+    text-decoration: none;
+}
+
+.footer-2 ul a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+}
+
+.lista li {
+    padding: 0 10px;
 }
